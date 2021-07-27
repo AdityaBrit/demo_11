@@ -1,0 +1,904 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Heading{
+    
+    margin-bottom: 20px;
+    margin-left: 65px;
+    font-weight: bold;
+
+}
+
+.main-container{
+    
+    margin-top: 50px;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-bottom: 50px;
+    padding: 40px;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.3);
+    /* border: 1px solid gray; */
+    height: 550px;
+    border-radius: 10px ;
+    background-color: #fff;
+    
+}
+
+
+ /* .social{
+
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   
+ 
+} 
+
+.myicons li{
+
+    
+    padding-right: 50px;
+    text-transform: uppercase;
+}  */
+
+
+
+
+
+
+  /* .social{
+  
+  position: absolute;
+    
+  top: 0;
+  left:340px;
+
+  overflow: hidden;
+  border: 1px solid gray;
+  
+} */
+
+/* .social a{
+    padding: 40px 5px 1px 10px;
+    text-decoration: none;
+    font-size: 1px;
+    display: block;
+    margin-top: 12px;
+    margin-right: 1px ;
+
+} */
+
+.project-progress{
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.3);
+    width: 210px;
+    margin-left: 62px;
+    margin-top: -10px;
+    padding: 10px;
+    height: 33vh;
+    line-height: 2.8;
+    border-radius: 10px;
+}
+
+
+.progress-line{
+    height: 4px;
+    width: 100%;
+    background-color: #dbd7d7;
+    position: relative;
+}
+
+.progress-line span{
+    height: 70%;
+    width: 70%;
+    background-color: blue;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.project-progress p{
+    font-size: 13px;
+}
+
+.Deedlines{
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-left: 62px;
+    border-radius: 10px;
+    height: 129px;
+    width: 380px;
+}
+
+.Header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+    
+}
+.Deedlines-one{
+    
+    list-style: none;
+}
+
+.Deedlines-one li{
+    display: inline-block;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+
+
+.Deedlines-two{
+    margin-left: 520px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+#par h6{
+    margin-right: 150px;
+}
+
+
+
+.bottom{
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.3);
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+.bottom-one{
+    
+    position: absolute;
+    width: 35px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(229, 168, 145);
+    border-radius: 5px;
+    color: orangered;
+    
+
+}
+
+.bottom-two{
+    margin-left: 68px;
+    padding-top: 13px;
+    
+}
+
+
+.main__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: -5px;
+    margin-left: 61px;
+    padding-right: 290px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40px;
+    padding: 26px;
+    width: 122px;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-top: 52px;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.3);
+    /* border:1px solid gray */
+  }
+  
+  .card_inner {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+  }
+  
+  .card_inner > span {
+    font-size: 15px;
+  }
+
+  .card_inner .text-primary-p h6{
+     
+    position: absolute;    
+      padding:5px;
+      border-radius: 4px;
+      background-color: rgb(250, 179, 153);
+      font-weight: bold;
+      color: orangered;
+      margin-left: -15px;
+      width: 28px;
+     
+     
+  }
+
+  .card_inner .font-bold-text-title p{
+
+    font-size: 1.5vh;
+    font-weight: bold;
+    margin-right:15px;
+    margin-bottom: 13px;
+    
+
+  }
+
+  .card_inner .font-bold-text-title-one{
+    font-size: 2vh;
+    margin-top: 20px;
+    
+  }
+
+  .inco{
+     position: absolute;
+     margin-top: 17px;
+     margin-left: 60px;
+     font-weight: bold;
+  }
+
+  .pro-main{
+      display: flex;
+  }
+
+  .box-one{
+      position: relative;
+      border: 1px solid gray;
+      width: 69px;
+      height: 70px;
+      margin-left: 19px;
+      /* padding: 55px; */
+      border-radius: 10px;
+      margin-top: -12px;
+      align-items: center;
+      border: none;
+      background-color: rgb(236, 73, 73); 
+      background-image: linear-gradient(to right, rgb(248, 132, 78) , rgb(240, 161, 161));
+      color: white;
+      
+  }
+
+  .box-two{
+    position: relative;
+    border: 1px solid gray;
+    width: 69px;
+    height: 70px;
+    margin-left: 15px;
+    /* padding: 55px; */
+    border-radius: 10px;
+    margin-top: -12px;
+    align-items: center;
+    border: none;
+
+background-color: rgb(248, 219, 89); 
+background-image: linear-gradient(to right, rgb(243, 213, 42) , rgb(243, 234, 112));
+    color: white;
+  }
+
+  .box-three{
+    position:  absolute;
+    border: 1px solid gray;
+    width: 30px;
+    height: 134px;
+    margin-left: 290px;
+    padding-right: 153px;
+    border-radius: 10px;
+    margin-top: 73px;
+    align-items: center;
+    border: none;
+    background-color: rgb(89, 118, 248); 
+    background-image: linear-gradient(to right, rgb(94, 109, 245) , rgb(157, 163, 248));
+    color: white;
+  }
+
+  
+  .box-one h3{
+      position: absolute;
+      top: 10px;
+      left: 15px;    
+  }
+
+
+
+  .box-one h6{
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    font-weight: lighter;
+  }
+
+
+
+  .box-two h3{
+    position: absolute;
+      top: 10px;
+      left: 15px;       
+}
+
+  .box-two h6{
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    font-weight: lighter;
+  }
+
+  .box-three h3{
+    position: absolute;
+    top: 15px;
+    left: 100px;  
+    
+     
+}
+
+.box-three h6{
+    position: absolute;
+    top: 45px;
+    left: 100px;
+    font-weight: lighter;
+  }
+
+  .box-three p{
+
+    position: absolute;
+    top: 69px;
+    left: 90px;
+    font-weight: lighter;
+    font-size: 10px;
+
+  }
+
+  .box-three h1{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    font-weight: lighter;
+    font-size: 10px;
+  }
+
+  .box-three h2{
+
+    position: absolute;
+    top: 107px;
+    left: 95px;
+    font-weight: lighter;
+    font-size: 10px;
+  }
+
+
+
+
+  .Heading-One{
+      display: flex;
+      /* border: 1px solid gray; */
+ 
+  }
+
+  .search-box{
+      position: absolute;
+      top: 72px;
+      left: 640px;
+      
+    
+  }
+  .search-box #search{
+      border-radius: 5px;
+      padding: 5px;
+      width: 150px;
+      border:none;
+      background-color: rgb(245, 238, 238);
+      font-weight: lighter;
+  }
+ 
+  
+
+  
+svg circle
+{
+    width:50px;
+    height:50px;
+    fill:none;
+    stroke:#bbb7b7;
+    stroke-width:10px;
+    stroke-linecap:round;
+    transform:translate(5px, 5px);
+    
+}
+
+svg circle:nth-child(2)
+{
+    stroke-dasharray:440;
+    stroke-dashoffset:440;
+}
+.cardsss:nth-child(1) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(410 - (410 * 30) / 100);
+    stroke:#f1f1f1;
+}
+.perce{
+    padding: 15px;
+}
+
+
+
+
+
+.main-sidbar{
+    position: absolute;
+}
+
+.sidebar{
+    position: relative;
+    background:rgb(250, 249, 249);
+    width: 80px;
+    height: 550px;
+    bottom: 78px;
+    right: 41px;
+    z-index: 1;
+    border: 1px solid rgb(247, 244, 244);
+    border-radius: 10px ;
+
+}
+
+.sidebar h2{
+    
+    position: absolute;
+  
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #93daec 37%, #438fc2 100%);
+    width: 43px;
+    margin-left: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+    height:39px;
+    border-radius: 10px;
+    padding: 5px 15px
+
+}
+
+.setting{
+    
+    position: absolute;
+    bottom: 20px;
+    left: 29px;
+}
+
+
+.sidebar ul  {
+ margin-top: 130px;
+ list-style-type: none;
+ 
+}
+
+.sidebar ul li{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+
+.sidebar ul li a{
+    color: #ffffff;
+    padding: 0 30px;
+
+}
+.sidebar ul li a:hover{
+    color: #000000;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+.Deadfive h4{
+    margin-left: 300px;
+    font-size: 12px;
+}
+
+.Deadfive h6{
+    margin-left: 300px;
+    font-size: 9px;
+    color: rgb(19, 105, 235);
+}
+
+.Deadsix h4{
+    margin-left: 300px;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+.Deadsix h6{
+    margin-left: 300px;
+    font-size: 9px;
+    color: rgb(19, 105, 235);
+}
+
+
+.Nested-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin-top: -900px;
+   
+   
+}
+
+.Nested-One{
+
+  
+    border-radius: 50px;
+
+}
+
+
+
+.Nested-two {
+    list-style: none;
+}
+
+.Nested-two li {
+    position: relative;
+    display: inline-block;
+    padding: 35px;
+    left: 1px;
+    font-weight: bold;
+    font-size: 12px;
+     
+}
+.Nested-three{
+    position: relative;
+    left: 19px;
+}
+
+.used-store{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 492px;
+    right: 329px;
+    border: 1px solid rgb(221, 218, 218);
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 205px;
+    height: 50px;
+
+   
+}
+
+
+.used-one p{
+ 
+    font-size: 8px;
+    font-weight: bold;
+    padding-left: 10px;
+    
+}
+
+.used-one h6{
+   
+    font-size: 15px;
+    color: rgb(67, 67, 253);
+    padding-left: 10px;
+ 
+
+}
+
+.used-two p{
+ 
+    font-size: 8px;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+.used-two h6{
+   
+    font-size: 15px;
+    color: rgb(67, 67, 253);
+    padding-left: 10px;
+   
+
+
+}
+  
+
+.task-shedule{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 285px;
+    right: 290px;
+    margin: 10px;
+    padding: 20px 30px;
+    
+}
+
+.task-one{
+
+    border: 1px solid rgb(204, 203, 203);
+    margin: 10px;
+    width: 85px;
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+
+
+.task-two{
+
+    border: 1px solid rgb(204, 203, 203);
+    margin: 10px;
+    width: 85px;
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+
+
+.task-one p{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.task-one h4{
+
+    font-size: 10px;
+    font-size: 8px;
+    color: blue;
+
+}
+
+.task-one h5{
+    
+    position: relative;
+    font-size: 10px;
+    font-size: 8px;
+    color: coral;
+    bottom: 5px;
+   
+
+}
+
+
+.task-two p{
+
+    font-size: 10px;
+    font-weight: bold;
+   
+
+}
+
+.task-two h4{
+
+    font-size: 8px;
+    color: blue;
+   
+
+}
+
+.task-two h5{
+    position: relative;
+    font-size: 10px;
+    font-size: 8px;
+    color: coral;
+    bottom: 5px;
+
+}
+
+.Myschedules{
+    position:absolute;
+    display: flex;
+    margin-left: 100px;
+    top: 1px;
+}
+
+.tasks-one h5{
+    position: relative;
+    right: 97px;
+    font-size: 12px;
+}
+
+
+.messages-container{
+    position: absolute;
+    display: flex;
+    margin-left: 400px;
+    top: 362px;
+    border: 1px solid rgb(187, 187, 187);
+    padding: 9px 3px;
+    border-radius: 10px;
+    
+}
+
+.message-one{
+ 
+    margin-right: 9px;
+    margin-left: 7px;
+
+}
+
+.message-two{
+
+    margin-right: 9px;
+    
+}
+
+.message-two h4{
+
+    font-size: 9px;
+
+}
+
+.message-two p{
+    font-size: 9px;
+}
+
+
+
+
+.messages-contain{
+    position: absolute;
+    display: flex;
+    margin-left: 400px;
+    top: 439px;
+    border: 1px solid rgb(187, 187, 187);
+    padding: 9px 3px;
+    border-radius: 10px;
+    
+}
+
+.message-on{
+ 
+    margin-right: 9px;
+    margin-left: 7px;
+
+}
+
+.message-tw{
+
+    margin-right: 9px;
+    
+}
+
+.message-tw h4{
+
+    font-size: 9px;
+
+}
+
+.message-tw p{
+    font-size: 9px;
+}
+
+
+.messages-contai{
+    position: absolute;
+    display: flex;
+    margin-left: 400px;
+    top: 515px;
+    border: 1px solid rgb(187, 187, 187);
+    padding: 9px 3px;
+    border-radius: 10px;
+    
+}
+
+.message-o{
+ 
+    margin-right: 9px;
+    margin-left: 7px;
+
+}
+
+.message-t{
+
+    margin-right: 9px;
+    
+}
+
+.message-t h4{
+
+    font-size: 9px;
+
+}
+
+.message-t p{
+    font-size: 9px;
+}
+
+
+
+.Myschedule{
+    position:absolute;
+    display: flex;
+    margin-left: 500px;
+    bottom: 291px;
+}
+
+.tasks-on h5{
+    position: relative;
+    right: 97px;
+    font-size: 12px;
+}
+
+.bt{
+    margin-left: 32px;
+}
+
+.sear{
+    position: relative;
+    top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+  
+
+
+
+
+
+
+
+
+
